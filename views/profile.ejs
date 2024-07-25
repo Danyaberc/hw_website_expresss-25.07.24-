@@ -1,0 +1,13 @@
+<%- include('../inc/head') %>
+<%- include('../inc/header') %>
+<div class="container__profile">
+        <% arrInfo.forEach(info => { %>
+        <div>
+            <h2><%= info.title %></h2>
+            <p><%= info.discr %></p>
+            <h2><%= info.order %></h2>
+            <p><%= info.option %></p>
+        </div>
+    <% }) %>
+</div>
+
